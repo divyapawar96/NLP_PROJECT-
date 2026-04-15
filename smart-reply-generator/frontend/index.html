@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartReply AI | Professional NLP Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <main class="app-container">
+        <header class="app-header">
+            <div class="logo">
+                <span class="logo-icon">💡</span>
+                <h1>SmartReply AI</h1>
+            </div>
+            <p class="subtitle">Next-generation context-aware reply generation.</p>
+        </header>
+
+        <section class="input-section glass">
+            <label for="user-input">Received Message</label>
+            <div class="textarea-wrapper">
+                <textarea id="user-input" placeholder="Paste the message you received here... e.g., 'Are you free for a call tomorrow at 10 AM?'" rows="4"></textarea>
+                <div class="char-count">0 characters</div>
+            </div>
+            <button id="generate-btn" class="primary-btn">
+                <span class="btn-text">Generate Smart Replies</span>
+                <span class="btn-icon">✨</span>
+            </button>
+        </section>
+
+        <section id="results-section" class="results-section hidden">
+            <div class="metrics-row">
+                <div class="metric-card glass">
+                    <span class="label">Detected Intent</span>
+                    <span id="intent-display" class="value">---</span>
+                </div>
+                <div class="metric-card glass">
+                    <span class="label">Confidence</span>
+                    <span id="confidence-display" class="value">0%</span>
+                </div>
+            </div>
+
+            <h2 class="section-title">Suggested Replies</h2>
+            <div id="replies-container" class="replies-grid">
+                <!-- Replies will be injected here -->
+            </div>
+        </section>
+
+        <section id="history-section" class="history-section glass hidden">
+            <h2 class="section-title">Session History</h2>
+            <div id="history-list" class="history-list">
+                <!-- History items injected here -->
+            </div>
+        </section>
+
+        <footer class="app-footer">
+            <p>Powered by <span>NLP Hub</span> • built with spaCy & FastAPI</p>
+        </footer title="">
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

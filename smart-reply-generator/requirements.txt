@@ -1,3 +1,5 @@
 streamlit
 spacy
 scikit-learn
+fastapi
+uvicorn

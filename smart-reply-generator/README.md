@@ -12,11 +12,12 @@ Ever wondered how platforms like Gmail and LinkedIn suggest those quick, relevan
 It takes a user message, preprocesses the text, detects the underlying intent (e.g., Greetings, Meetings, Questions), and suggests **3 intelligent response options**.
 
 ### ✨ Features
+- **🎨 Premium UI:** Styled with a professional Dark Mode & Glassmorphism design (HTML/CSS/JS).
+- **⚡ High Performance:** Powered by a FastAPI backend for rapid response generation.
 - **🧠 Intent Detection:** Accurately classifies whether a message is an introduction, a meeting request, an apology, etc.
 - **💬 Smart Replies:** Suggests 3 highly context-relevant replies based on the detected intent.
 - **🛠️ NLP Preprocessing:** Handles text sanitization, tokenization, stop-word removal, and lemmatization using `spaCy`.
 - **📊 Confidence Scores:** Calculates the system's certainty regarding the detected intent.
-- **🎨 Beautiful UI:** Powered by Streamlit with an interactive layout and session history tracking.
 
 ---
 
@@ -51,7 +52,17 @@ pip install -r requirements.txt
 ```
 
 ### 3. Usage
-Run the Streamlit app to start the UI:
+
+#### Option A: Professional Web Interface (Recommended)
+Run the FastAPI server to experience the premium interface:
+
+```bash
+python main.py
+```
+*Open `http://localhost:8000` in your browser.*
+
+#### Option B: Streamlit Dashboard
+Run the classic Streamlit app:
 
 ```bash
 streamlit run app.py
