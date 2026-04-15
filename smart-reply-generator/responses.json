@@ -1,0 +1,37 @@
+{
+  "greeting": [
+    "Hello! How can I help you today? 😊",
+    "Hi there! What can I do for you?",
+    "Hey! Hope you are having a great day!"
+  ],
+  "meeting_request": [
+    "Sure, let's schedule a meeting. What time works best for you? 📅",
+    "I'd be happy to meet. Please share some available slots.",
+    "Absolutely! Let me know your availability."
+  ],
+  "question": [
+    "That's a great question! Let me find the answer for you. 🔍",
+    "I can definitely help with that. Could you provide a bit more detail?",
+    "I'll look into this and get back to you shortly."
+  ],
+  "apology": [
+    "No worries at all! Let's move forward. 👍",
+    "It's completely fine. Don't worry about it.",
+    "Apology accepted. How can I assist you further?"
+  ],
+  "gratitude": [
+    "You're very welcome! Let me know if you need anything else. ✨",
+    "Glad I could help!",
+    "My pleasure! Have a wonderful day. 😊"
+  ],
+  "farewell": [
+    "Goodbye! Have a great day ahead! 👋",
+    "See you later! Take care.",
+    "Bye! Looking forward to talking again."
+  ],
+  "unknown": [
+    "I'm not exactly sure what you mean, could you clarify? 🤔",
+    "Interesting! Tell me more about that.",
+    "I'm still learning, but I'd love to understand better."
+  ]
+}
